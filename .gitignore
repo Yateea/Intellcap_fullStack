@@ -1,0 +1,20 @@
+# ── Secrets — NE JAMAIS COMMITTER ──
+backend/.env
+frontend/.env.local
+*.env
+!*.env.example
+
+# ── Backend (Maven / Java) ──
+backend/target/
+backend/src_backup_2026_06_22/
+
+# ── Frontend (Node / Next.js) ──
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# ── OS / IDE ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
